@@ -1,0 +1,26 @@
+import sys
+import requests
+
+if __name__ == '__main__':
+    link = sys.argv[2]//---------------------to open
+    url = sys.argv[1]// ---------------------to login
+    #link = "http://websismit.manipal.edu/sis/control/ListCTPEnrollment?customTimePeriodId=MAY2016"
+    USERNAME =sys.argv[3]
+    print USERNAME
+    #url="http://websismit.manipal.edu/sis/control/main"
+    PASSWORD = sys.argv[4]
+    with requests.Session() as c:
+         url="http://websismit.manipal.edu/sis/control/main"
+    
+         c.get(url);
+         login_data =dict(USERNAME=USERNAME,PASSWORD=PASSWORD)
+         c.post(url,data=login_data)
+         page1= c.get("http://websismit.manipal.edu/sis/control/main")
+         got=page1.content
+         string=got
+    
+    n=open("new.txt","w+")
+    n.write(string)
+    n.close()
+
+

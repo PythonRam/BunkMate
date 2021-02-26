@@ -1,0 +1,552 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Begin Screen component://sis/widget/party/PartyScreens.xml#viewStudentProfile -->
+<!-- Begin Screen component://sis/widget/CommonScreens.xml#viewProfileDecorator -->
+<!-- Begin Section Widget  -->
+<!-- Begin Screen component://sis/widget/CommonScreens.xml#main-decorator -->
+<!-- Begin Section Widget  -->
+<!-- Begin Template component://sis/webapp/sis/includes/headerHead.ftl -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>View Person&#47;Org Profile: Manipal Institute of Technology</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+        <script type="text/javascript" src="/images/jquery/jquery-1.8.2.min.js"></script>
+        <script type="text/javascript" src="/images/jquery/ui/development-bundle/ui/jquery.ui.datepicker.js"></script>
+        <script type="text/javascript" src="/images/jquery/plugins/fjTimer/jquerytimer-min.js"></script>
+        <script type="text/javascript" src="/images/jquery/plugins/validate/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="/images/jquery/plugins/jeditable/jquery.jeditable.js"></script>
+        <script type="text/javascript" src="/images/jquery/ui/js/jquery-ui-1.8.11.custom.min.js"></script>
+        <script type="text/javascript" src="/images/jquery/plugins/jquery.maskedinput-1.2.2.min.js"></script>
+        <script type="text/javascript" src="/images/jquery/plugins/datetimepicker/jquery-ui-timepicker-addon-0.9.3.min.js"></script>
+        <script type="text/javascript" src="/images/fieldlookup.js"></script>
+        <script type="text/javascript" src="/images/getDependentDropdownValues.js"></script>
+      <link rel="stylesheet" href="/images/jquery/ui/css/jquery-custom.css" type="text/css"/>
+      <link rel="stylesheet" href="/kenapps/css/calendar.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/bootstrap.min.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/sis-style.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/sis-header.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/bootstrap-responsive.min.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/bootstrap.universe.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/sis-style-responsive.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/font-awesome.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/sis-default.css" type="text/css"/>
+</head>
+<!-- End Template component://sis/webapp/sis/includes/headerHead.ftl -->
+<!-- Begin Template component://common/webcommon/includes/openhtmlbody.ftl -->
+<body>
+<!-- End Template component://common/webcommon/includes/openhtmlbody.ftl -->
+<div class="page-container">
+<div id="header" class="absolute-container">
+<!-- Begin Template component://universe/includes/sis-header.ftl -->
+
+<!--=== Style Switcher ===-->
+<!--/style-switcher-->
+<!--=== End Style Switcher ===-->   
+
+<!--=== Top ===-->    
+<div class="top">
+    <div class="container">         
+        <ul class="loginbar pull-right">          
+                <li>     
+			      Welcome&nbsp;T HITHESH!
+			      (Not You?&nbsp;<a href="/sis/control/autoLogout" class="linktext">Click Here</a>)
+			    </li>
+            <li class="devider">&nbsp;</li>
+			    <li id="header-bar-logout"><a href="/sis/control/logout">Logout</a></li>                      
+        </ul>
+    </div>      
+</div><!--/top-->
+<!--=== End Top ===-->  
+
+<!--=== Header ===-->
+<div class="header"> 
+                  
+    <div class="container"> 
+        <!-- Logo -->       
+        <div class="logo">                                             
+		        <img src="/images/Manipal-Univ-logo.jpg" alt="Logo"/>
+        </div><!-- /logo -->        
+                                    
+        <!-- Menu -->       
+        <div class="navbar">                                
+            <div class="navbar-inner">                                  
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a><!-- /nav-collapse -->                                  
+                <div class="nav-collapse collapse">                                     
+                    <ul class="nav top-2">
+                        <li id="header-bar-home"><a href="/sis/control/main">Home</a></li>
+                        <li id="header-bar-Calendar"><a href="/sis/control/calendar">Calendar</a></li>
+                        <li id="header-bar-viewprofile"><a href="/sis/control/viewStudentProfile">Profile</a></li>
+                        <li id="header-bar-blogs"><a href="/sis/control/MainBlog">Web Board</a></li>
+                        <li id="header-bar-registrations"><a href="/sis/control/Registrations">Registrations</a></li>
+                        <li id="header-bar-PreRegistrations"><a href="/sis/control/PreRegistrations">Pre-Registrations</a></li>
+                    </ul>
+                    <div class="search-open">
+                        <div class="input-append">
+                            <form>
+                                <input type="text" class="span3" placeholder="Search" />
+                                <button type="submit" class="btn-u">Go</button>
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- /nav-collapse -->                                
+            </div><!-- /navbar-inner -->
+        </div><!-- /navbar -->                          
+    </div><!-- /container -->               
+</div><!--/header -->      
+<!--=== End Header ===--><!-- End Template component://universe/includes/sis-header.ftl -->
+</div><div id="extraHeader">
+<!-- Begin Template component://universe/includes/sis-extra-header.ftl -->
+<!--=== Breadcrumbs ===-->
+<div class="breadcrumbs">
+    <div class="container">
+        <h1 class="pull-left">
+                            Student Profile
+        </h1>        
+    </div><!--/container-->
+</div><!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===--><!-- End Template component://universe/includes/sis-extra-header.ftl -->
+</div><div class="container">
+<div class="row-fluid">
+<!-- Begin Template component://sis/webapp/sis/includes/messages.ftl -->
+
+
+
+
+<!-- End Template component://sis/webapp/sis/includes/messages.ftl -->
+<div class="row-fluid">
+<!-- Begin Menu Widget component://sis/widget/party/PartyMenus.xml#PartyTabBar -->
+<div class="button-bar tab-bar">
+<ul>
+<li>
+ <ul>
+  <li class="selected "><a href="/sis/control/viewStudentProfile">My Profile</a></li>
+  <li><a href="/sis/control/ListCTPEnrollment?customTimePeriodId=MAY2016">Academic Status</a></li>
+  <li><a href="/sis/control/viewStudentDues">Financials</a></li>
+  <li><a href="/sis/control/ChangePassword?partyId=39962&amp;userLoginId=THITHESH&#64;1031266">ChangePassword</a></li>
+ </ul>
+</li>
+</ul>
+ <br class="clear"/>
+</div>
+<!-- End Menu Widget component://sis/widget/party/PartyMenus.xml#PartyTabBar -->
+</div><!-- Begin Section Widget  -->
+<!-- Begin Section Widget  -->
+<!-- Begin Screen component://sis/widget/party/PartyScreens.xml#SisProfileSummary -->
+<div class="content-main">
+<div id="content" class="span9 tab-content">
+<div class="profile-header well span4">
+<div class="shadow-white">
+<!-- Begin Section Widget  -->
+<div class="avatar">
+<!-- Begin Template component://sis/webapp/sis/party/ProfileImage.ftl -->
+<div class="image">
+    	           <img src="/sis/control/img/P39962.JPG?imgId=P39962" 
+	                overflow="hidden" onError="this.src='/images/default_avatar.jpg'" />        
+</div>
+
+
+<!-- End Template component://sis/webapp/sis/party/ProfileImage.ftl -->
+</div><div class="bio">
+<!-- Begin  Form Widget - Form Element  component://sis/widget/party/PartyForms.xml#ProfileTitle -->
+<form method="post" action="" id="ProfileTitle" class="none" onsubmit="javascript:submitFormDisableSubmits(this)" name="ProfileTitle">
+    <input type="hidden" name="partyId" value="39962" id="ProfileTitle_partyId"/>
+    <input type="hidden" name="name" id="ProfileTitle_name"/>
+    <input type="hidden" name="statusDescription" id="ProfileTitle_statusDescription"/>
+    <input type="hidden" name="idValue" value="140906596" id="ProfileTitle_idValue"/>
+    <input type="hidden" name="productCategoryId" id="ProfileTitle_productCategoryId"/>
+    <input type="hidden" name="programCategoryId" value="0906" id="ProfileTitle_programCategoryId"/>
+    <input type="hidden" name="sectionCode" id="ProfileTitle_sectionCode"/>
+    <table cellspacing="0" >
+    <tr>
+    <td class="label">
+<span id="ProfileTitle_name_title">&nbsp;</span>    </td>
+    <td>
+<span id="cc_ProfileTitle_name"   class="h1" 
+>
+ T HITHESH   </span>
+    </td>
+    </tr>
+    <tr>
+    <td class="label">
+<span id="ProfileTitle_statusDescription_title">&nbsp;</span>    </td>
+    <td>
+<span id="cc_ProfileTitle_statusDescription"   class="h2" 
+>
+&#91; Submitted &#93;</span>
+    </td>
+    </tr>
+    <tr>
+    <td class="label">
+<span id="ProfileTitle_idValue_title">&nbsp;</span>    </td>
+    <td>
+<span id="cc_ProfileTitle_idValue"   class="h3" 
+>
+140906596</span>
+    </td>
+    </tr>
+    <tr>
+    <td class="label">
+<span id="ProfileTitle_productCategoryId_title">&nbsp;</span>    </td>
+    <td>
+
+Electrical and Electronics Engineering Semester 4    </td>
+    </tr>
+    <tr>
+    <td class="label">
+<span id="ProfileTitle_programCategoryId_title">&nbsp;</span>    </td>
+    <td>
+
+Electrical and Electronics Engineering     </td>
+    </tr>
+    <tr>
+    <td class="label">
+<span id="ProfileTitle_sectionCode_title">&nbsp;</span>    </td>
+    <td colspan="4">
+<span id="cc_ProfileTitle_sectionCode"   class="label" 
+>
+Section B</span>
+    </td>
+    </tr>
+    </table>
+</form>
+<!-- End  Form Widget - Form Element  component://sis/widget/party/PartyForms.xml#ProfileTitle --></div><!-- End Section Widget  -->
+<div class="bothclear">
+</div><div id="overview">
+<!-- Begin Section Widget  -->
+<!-- Begin  Form Widget - Form Element  component://sis/widget/party/PartyForms.xml#ProfileSummary -->
+<form method="post" action="" id="ProfileSummary" class="display-form" onsubmit="javascript:submitFormDisableSubmits(this)" name="ProfileSummary">
+    <input type="hidden" name="partyId" value="39962" id="ProfileSummary_partyId"/>
+    <input type="hidden" name="gender" value="M" id="ProfileSummary_gender"/>
+    <input type="hidden" name="birthDate" id="ProfileSummary_birthDate"/>
+    <input type="hidden" name="customTimePeriodId" value="2014-2015" id="ProfileSummary_customTimePeriodId"/>
+    <input type="hidden" name="nationalityId" value="IND" id="ProfileSummary_nationalityId"/>
+    <table cellspacing="0" class="basic-table">
+    <tr>
+    <td class="label">
+<span id="ProfileSummary_gender_title">Gender</span>    </td>
+    <td>
+
+M    </td>
+    </tr>
+    <tr>
+    <td class="label">
+<span id="ProfileSummary_birthDate_title">Birth Date</span>    </td>
+    <td>
+
+01&#47;08&#47;1997    </td>
+    </tr>
+    <tr>
+    <td class="label">
+<span id="ProfileSummary_customTimePeriodId_title">Joining Year</span>    </td>
+    <td>
+
+2014-2015    </td>
+    </tr>
+    <tr>
+    <td class="label">
+<span id="ProfileSummary_nationalityId_title">Nationality</span>    </td>
+    <td>
+
+India    </td>
+    </tr>
+    </table>
+</form>
+<!-- End  Form Widget - Form Element  component://sis/widget/party/PartyForms.xml#ProfileSummary --><!-- End Section Widget  -->
+</div></div></div><div id="profile-summary" class="span8">
+<!-- Begin Section Widget  -->
+<div class="tile">
+<!-- Begin Section Widget  -->
+<!-- Begin Section Widget  -->
+        <h2>Contact Info</h2>
+<!-- Begin Screen component://sis/widget/party/PartyScreens.xml#Contact -->
+<!-- Begin Template component://sis/webapp/sis/party/Contact.ftl -->
+
+        <table class="basic-table" cellspacing="0">
+            <tr>
+              <td width="50%">               
+                  <div>
+                      <b>Mobile Phone</b>
+                  </div>
+                </td>
+                <td width="50%">
+                  <div>
+                    
+                    9866316519
+                    
+                  </div>
+                
+              </td>
+              <td class="button-col" width="40%">
+              </td>
+            </tr>
+            <tr>
+              <td width="50%">               
+                  <div>
+                      <b>Email Address</b>
+                  </div>
+                </td>
+                <td width="50%">
+                  <div>
+                    leelacuddapah&#64;gmail.com
+                    <form method="post" action="/sis/control/NewDraftCommunicationEvent" onsubmit="javascript:submitFormDisableSubmits(this)" name="createEmailleelacuddapahgmailcom">
+                      <input name="partyIdFrom" value="39962" type="hidden"/>
+                      <input name="partyIdTo" value="39962" type="hidden"/>
+                      <input name="contactMechIdTo" value="103522" type="hidden"/>
+                      <input name="my" value="My" type="hidden"/>
+                      <input name="statusId" value="COM_PENDING" type="hidden"/>
+                      <input name="communicationEventTypeId" value="EMAIL_COMMUNICATION" type="hidden"/>
+                    </form>  
+                  </div>
+                
+              </td>
+              <td class="button-col" width="40%">
+              </td>
+            </tr>
+            <tr>
+              <td width="50%">               
+                  <div>
+                      <b>Home Phone</b>
+                  </div>
+                </td>
+                <td width="50%">
+                  <div>
+                    
+                    9538930333
+                    
+                  </div>
+                
+              </td>
+              <td class="button-col" width="40%">
+              </td>
+            </tr>
+            <tr>
+              <td width="50%">               
+                  <div>
+                      <b>Hostel Address</b>
+                  </div>
+                </td>
+                <td width="50%">
+                      <div>
+                        <b>Room Number:</b> 413<br />
+                              Boys Hostel Block XVII 
+                      </div>
+                
+              </td>
+              <td class="button-col" width="40%">
+              </td>
+            </tr>
+            <tr>
+              <td width="50%">               
+                  <div>
+                      <b>Permanent Address</b>
+                  </div>
+                </td>
+                <td width="50%">
+                  <div>
+                    
+                    
+                    H.NO. 6-1-191A VARADHARAJA NAGAR<br />
+                    KT ROAD OPP. VISWAM TALENT SCHOOL <br />
+                    TIRUPATI,
+                      AP
+                    517501
+                    <br />
+                      India
+                  </div>
+                
+              </td>
+              <td class="button-col" width="40%">
+              </td>
+            </tr>
+        </table>
+<!-- End Template component://sis/webapp/sis/party/Contact.ftl -->
+<!-- End Screen component://sis/widget/party/PartyScreens.xml#Contact -->
+<!-- End Section Widget  -->
+<!-- End Section Widget  -->
+</div><div class="tile">
+        <h2>ID Numbers</h2>
+<!-- Begin  Form Widget  component://sis/widget/party/PartyForms.xml#listPartyIdentification --><table cellspacing="0"  id="listPartyIdentification_table"  class="basic-table table">
+    <script>
+		$(document).ready(function() {
+      	$('#listPartyIdentification').tableInputStep();
+   		});
+	</script>
+    <thead><tr class="header-row">
+    <th class="no-table-header">
+<span id="listPartyIdentification_partyIdentTypeDesc_title">Identification Type</span>    </th>
+    <th class="no-table-header">
+<span id="listPartyIdentification_idValue_title">Number</span>    </th>
+    </tr></thead>
+    <tr  >
+    <td >
+
+Roll Number    </td>
+    <td >
+
+32    </td>
+    </tr>
+    <tr  >
+    <td >
+
+Registration Number    </td>
+    <td >
+
+140906596    </td>
+    </tr>
+    <tr  >
+    <td >
+
+Admission Number    </td>
+    <td >
+
+1031266    </td>
+    </tr>
+</table>    
+<!-- End  Form Widget - Formal List Wrapper  component://sis/widget/party/PartyForms.xml#listPartyIdentification --></div><!-- End Section Widget  -->
+</div></div><div id="extra" class="span3">
+<!-- Begin Section Widget  -->
+<div class="headline">
+        <h3>Announcements</h3>
+</div><div>
+<!-- Begin Screen component://sis/widget/party/PartyScreens.xml#ProfileTeaser -->
+<!-- Begin Section Widget  -->
+<!-- End Section Widget  -->
+<!-- End Screen component://sis/widget/party/PartyScreens.xml#ProfileTeaser -->
+<!-- Begin Screen component://sis/widget/party/PartyScreens.xml#ActiveSurveyTeaser -->
+<!-- Begin Section Widget  -->
+<div class="notice alert">
+<!-- Begin  Form Widget  component://sis/widget/party/PartyForms.xml#ActiveSurveyTeaser --><table cellspacing="0"  id="ActiveSurveyTeaser_table"  class="basic-table no-border">
+    <script>
+		$(document).ready(function() {
+      	$('#ActiveSurveyTeaser').tableInputStep();
+   		});
+	</script>
+    <tr  >
+    <td >
+
+Course Feedback    </td>
+    <td class="pull-right">
+<a class="sprite smallSubmit btn btn-inverse pull-right" href="/sis/control/takesurvey?productStoreSurveyId=10050" title=" "><span class="sprite">Proceed</span></a>    </td>
+    </tr>
+</table>    
+<!-- End  Form Widget - Formal List Wrapper  component://sis/widget/party/PartyForms.xml#ActiveSurveyTeaser --></div><!-- End Section Widget  -->
+<!-- End Screen component://sis/widget/party/PartyScreens.xml#ActiveSurveyTeaser -->
+<div class="help-block">
+      <span>Watch this space for details on Registrations, Feedback and Profile updates</span> 
+</div><!-- Begin Screen component://sis/widget/party/PartyScreens.xml#RegistrationTeaser -->
+<div class="headline">
+        <h3>Registrations</h3>
+</div><!-- Begin Screen component://sis/widget/RegistrationScreens.xml#ListActiveRegistrations -->
+<!-- Begin Section Widget  -->
+<div class="alert alert-info">
+      <span>No Active Session for Registration</span> 
+</div><!-- End Section Widget  -->
+<!-- End Screen component://sis/widget/RegistrationScreens.xml#ListActiveRegistrations -->
+<!-- Begin Screen component://sis/widget/PreRegistrationScreens.xml#PreRegistrationTile -->
+<!-- Begin Section Widget  -->
+<!-- End Section Widget  -->
+<!-- End Screen component://sis/widget/PreRegistrationScreens.xml#PreRegistrationTile -->
+<!-- End Screen component://sis/widget/party/PartyScreens.xml#RegistrationTeaser -->
+<!-- Begin Section Widget  -->
+<!-- End Section Widget  -->
+</div><div id="content" class="content-main">
+<!-- Begin Screen component://sis/widget/party/PartyScreens.xml#navBox -->
+<!-- End Screen component://sis/widget/party/PartyScreens.xml#navBox -->
+</div><!-- End Section Widget  -->
+</div></div><!-- End Screen component://sis/widget/party/PartyScreens.xml#SisProfileSummary -->
+<!-- End Section Widget  -->
+<!-- End Section Widget  -->
+</div></div></div><div id="footer">
+<!-- Begin Template component://universe/includes/sis-footer.ftl -->
+<div class="footer">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span4">
+                <!-- About -->
+                <div class="headline"><h3>About</h3></div>  
+                <p class="margin-bottom-25">AMS Student Information Portal provides you quick and personalized access to your institute record and academic status.</p>
+                <p class="margin-bottom-25">Information shared here is for reference and easy access only and cannot be treated as certified edition of records from your institute.</p>    
+
+            </div><!--/span4--> 
+            
+            <div class="span4">
+                <div class="posts">
+                    <div class="headline"><h3>Recent Posts</h3></div>
+	                    <div class="dl-horizontal">
+	                        <div><a href="/sis/control/ViewBlogArticle?contentId=13566"><i class="icon-envelope"></i></a></div>
+	                        <div>
+	                            <p><h4><a href="/sis/control/ViewBlogArticle?contentId=13566">Time Table 2016 - IV&amp;VI Sem</a></h4></p>
+	                            <p>Time Table 2016 - IV&amp;VI Sem</p> 
+	                        </div>
+	                    </div>	                                        
+	                    <div class="dl-horizontal">
+	                        <div><a href="/sis/control/ViewBlogArticle?contentId=13564"><i class="icon-envelope"></i></a></div>
+	                        <div>
+	                            <p><h4><a href="/sis/control/ViewBlogArticle?contentId=13564">Time Table May 2016</a></h4></p>
+	                            <p>I Year Time Table</p> 
+	                        </div>
+	                    </div>	                                        
+	                    <div class="dl-horizontal">
+	                        <div><a href="/sis/control/ViewBlogArticle?contentId=13559"><i class="icon-envelope"></i></a></div>
+	                        <div>
+	                            <p><h4><a href="/sis/control/ViewBlogArticle?contentId=13559">JAN-MAY2016</a></h4></p>
+	                            <p>JAN-MAY 2016</p> 
+	                        </div>
+	                    </div>	                                        
+	                    <div class="dl-horizontal">
+	                        <div><a href="/sis/control/ViewBlogArticle?contentId=13440"><i class="icon-envelope"></i></a></div>
+	                        <div>
+	                            <p><h4><a href="/sis/control/ViewBlogArticle?contentId=13440">OPEN ELECTIVE REGISTRATION 2016</a></h4></p>
+	                            <p>Open Elective Registration for Jan 2016 are now open. See Details. </p> 
+	                        </div>
+	                    </div>	                                        
+                </div>
+            </div><!--/span4-->
+
+            <div class="span4">
+                <!-- Monthly Newsletter -->
+                <div class="headline"><h3>Contact</h3></div> 
+                <address>
+                        <div><strong>Manipal Institute of Technology</strong></div>
+                        <div>Administration Section</div> 
+                </address>
+
+                <!-- Stay Connected -->
+            </div><!--/span4-->
+        </div><!--/row-fluid--> 
+    </div><!--/container--> 
+</div>
+
+<div class="copyright">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span12">                     
+                <p>2016&nbsp;  &copy; <a href="http://www.kenapps.com" class="tabletext">KenApps</a> Powered by AMS. </p>
+            </div>
+        </div><!--/row-fluid-->
+    </div><!--/container--> 
+</div>
+
+        <script type="text/javascript" src="/universe/js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="/universe/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/universe/js/back-to-top.js"></script>
+        <script type="text/javascript" src="/universe/js/app.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        App.init();
+    });
+</script>  
+<!-- End Template component://universe/includes/sis-footer.ftl -->
+</div><!-- Begin Template component://common/webcommon/includes/closehtmlbody.ftl -->
+</body>
+</html>
+<!-- End Template component://common/webcommon/includes/closehtmlbody.ftl -->
+<!-- End Section Widget  -->
+<!-- End Screen component://sis/widget/CommonScreens.xml#main-decorator -->
+<!-- End Section Widget  -->
+<!-- End Screen component://sis/widget/CommonScreens.xml#viewProfileDecorator -->
+<!-- End Screen component://sis/widget/party/PartyScreens.xml#viewStudentProfile -->

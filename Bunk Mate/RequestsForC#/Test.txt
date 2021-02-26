@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Begin Screen component://sis/widget/CommonScreens.xml#login -->
+<!-- Begin Screen component://sis/widget/CommonScreens.xml#main-decorator -->
+<!-- Begin Section Widget  -->
+<!-- Begin Template component://sis/webapp/sis/includes/headerHead.ftl -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Login: Manipal Institute of Technology</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+        <script type="text/javascript" src="/images/jquery/jquery-1.8.2.min.js"></script>
+        <script type="text/javascript" src="/images/jquery/ui/development-bundle/ui/jquery.ui.datepicker.js"></script>
+        <script type="text/javascript" src="/images/jquery/plugins/fjTimer/jquerytimer-min.js"></script>
+        <script type="text/javascript" src="/images/jquery/plugins/validate/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="/images/jquery/plugins/jeditable/jquery.jeditable.js"></script>
+        <script type="text/javascript" src="/images/jquery/ui/js/jquery-ui-1.8.11.custom.min.js"></script>
+        <script type="text/javascript" src="/images/jquery/plugins/jquery.maskedinput-1.2.2.min.js"></script>
+        <script type="text/javascript" src="/images/jquery/plugins/datetimepicker/jquery-ui-timepicker-addon-0.9.3.min.js"></script>
+        <script type="text/javascript" src="/images/fieldlookup.js"></script>
+        <script type="text/javascript" src="/images/getDependentDropdownValues.js"></script>
+      <link rel="stylesheet" href="/images/jquery/ui/css/jquery-custom.css" type="text/css"/>
+      <link rel="stylesheet" href="/kenapps/css/calendar.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/bootstrap.min.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/sis-style.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/sis-header.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/bootstrap-responsive.min.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/bootstrap.universe.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/sis-style-responsive.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/font-awesome.css" type="text/css"/>
+      <link rel="stylesheet" href="/universe/css/sis-default.css" type="text/css"/>
+</head>
+<!-- End Template component://sis/webapp/sis/includes/headerHead.ftl -->
+<!-- Begin Template component://common/webcommon/includes/openhtmlbody.ftl -->
+<body>
+<!-- End Template component://common/webcommon/includes/openhtmlbody.ftl -->
+<div class="page-container">
+<div id="header" class="absolute-container">
+<!-- Begin Template component://universe/includes/sis-header.ftl -->
+
+<!--=== Style Switcher ===-->
+<!--/style-switcher-->
+<!--=== End Style Switcher ===-->   
+
+<!--=== Top ===-->    
+<div class="top">
+    <div class="container">         
+        <ul class="loginbar pull-right">          
+            <li class="devider">&nbsp;</li>
+			    <li id="header-bar-login" class="login-btn"><a href="/sis/control/checkLogin">Login</a></li>
+        </ul>
+    </div>      
+</div><!--/top-->
+<!--=== End Top ===-->  
+
+<!--=== Header ===-->
+<div class="header"> 
+                  
+    <div class="container"> 
+        <!-- Logo -->       
+        <div class="logo">                                             
+		        <img src="/images/Manipal-Univ-logo.jpg" alt="Logo"/>
+        </div><!-- /logo -->        
+                                    
+        <!-- Menu -->       
+        <div class="navbar">                                
+            <div class="navbar-inner">                                  
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a><!-- /nav-collapse -->                                  
+                <div class="nav-collapse collapse">                                     
+                    <ul class="nav top-2">
+                        <li id="header-bar-home"><a href="/sis/control/main">Home</a></li>
+                        <li id="header-bar-Calendar"><a href="/sis/control/calendar">Calendar</a></li>
+                        <li id="header-bar-viewprofile"><a href="/sis/control/viewStudentProfile">Profile</a></li>
+                        <li id="header-bar-blogs"><a href="/sis/control/MainBlog">Web Board</a></li>
+                        <li id="header-bar-registrations"><a href="/sis/control/Registrations">Registrations</a></li>
+                        <li id="header-bar-PreRegistrations"><a href="/sis/control/PreRegistrations">Pre-Registrations</a></li>
+                    </ul>
+                    <div class="search-open">
+                        <div class="input-append">
+                            <form>
+                                <input type="text" class="span3" placeholder="Search" />
+                                <button type="submit" class="btn-u">Go</button>
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- /nav-collapse -->                                
+            </div><!-- /navbar-inner -->
+        </div><!-- /navbar -->                          
+    </div><!-- /container -->               
+</div><!--/header -->      
+<!--=== End Header ===--><!-- End Template component://universe/includes/sis-header.ftl -->
+</div><div id="extraHeader">
+<!-- Begin Template component://universe/includes/sis-extra-header.ftl -->
+<!--=== Breadcrumbs ===-->
+<div class="breadcrumbs">
+    <div class="container">
+        <h1 class="pull-left">
+                            login
+        </h1>        
+    </div><!--/container-->
+</div><!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===--><!-- End Template component://universe/includes/sis-extra-header.ftl -->
+</div><div class="container">
+<div class="row-fluid">
+<!-- Begin Template component://sis/webapp/sis/includes/messages.ftl -->
+
+
+
+
+<!-- End Template component://sis/webapp/sis/includes/messages.ftl -->
+<div>
+<div id="login-right">
+<!-- Begin Template component://sis/webapp/sis/login.ftl -->
+<div class="loginbox" id="loginbox">
+    <div class="screenlet">
+      <div class="login-body">
+        <form method="post" action="/sis/control/login" name="loginform" class="log-page">
+            <h3>Login to your account</h3>
+            <div class="input-prepend">
+                <span class="add-on"><i class="icon-user"></i></span>
+                <input class="input-xlarge" type="text" id="userName" name="USERNAME"  placeholder="Username" value="">
+            </div>
+            <div class="input-prepend">
+                <span class="add-on"><i class="icon-lock"></i></span>
+                <input class="input-xlarge" type="password" id="password" name="PASSWORD" value="" placeholder="Password">
+            </div>
+            <div class="controls form-inline">
+                <label class="checkbox">
+                </label>
+                <button class="btn-u pull-right" type="submit">Login</button>
+            </div>
+            <div class="controls form-inline">
+                <input type="hidden" name="JavaScriptEnabled" value="N"/>
+                <a class="white pull-left" href="/sis/control/forgotPassword">Forgot Your Password?</a>
+             </div>
+       </form>
+    </div>
+   </div>
+   
+   <div>
+   </div>
+   
+ 
+  <div class="endcolumns">&nbsp;</div>
+</div>
+
+<script language="JavaScript" type="text/javascript">
+  
+  document.loginform.USERNAME.focus();
+</script><!-- End Template component://sis/webapp/sis/login.ftl -->
+</div></div></div></div></div><div id="footer">
+<!-- Begin Template component://universe/includes/sis-footer.ftl -->
+<div class="footer">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span4">
+                <!-- About -->
+                <div class="headline"><h3>About</h3></div>  
+                <p class="margin-bottom-25">AMS Student Information Portal provides you quick and personalized access to your institute record and academic status.</p>
+                <p class="margin-bottom-25">Information shared here is for reference and easy access only and cannot be treated as certified edition of records from your institute.</p>    
+
+            </div><!--/span4--> 
+            
+            <div class="span4">
+                <div class="posts">
+                    <div class="headline"><h3>Recent Posts</h3></div>
+	                    <div class="dl-horizontal">
+	                        <div><a href="/sis/control/ViewBlogArticle?contentId=13475"><i class="icon-envelope"></i></a></div>
+	                        <div>
+	                            <p><h4><a href="/sis/control/ViewBlogArticle?contentId=13475">PAPER SEEING AND REVALUATION</a></h4></p>
+	                            <p>INSTRUCTIONS FOR PAPER SEEING AND REVALUATION
+&#40;OTHER THAN &ldquo;F&rdquo; GRADE STUDENTS&#41;</p> 
+	                        </div>
+	                    </div>	                                        
+	                    <div class="dl-horizontal">
+	                        <div><a href="/sis/control/ViewBlogArticle?contentId=13440"><i class="icon-envelope"></i></a></div>
+	                        <div>
+	                            <p><h4><a href="/sis/control/ViewBlogArticle?contentId=13440">OPEN ELECTIVE REGISTRATION 2016</a></h4></p>
+	                            <p>Open Elective Registration for Jan 2016 are now open. See Details. </p> 
+	                        </div>
+	                    </div>	                                        
+                </div>
+            </div><!--/span4-->
+
+            <div class="span4">
+                <!-- Monthly Newsletter -->
+                <div class="headline"><h3>Contact</h3></div> 
+                <address>
+                        <div><strong>Manipal Institute of Technology</strong></div>
+                        <div>Administration Section</div> 
+                </address>
+
+                <!-- Stay Connected -->
+            </div><!--/span4-->
+        </div><!--/row-fluid--> 
+    </div><!--/container--> 
+</div>
+
+<div class="copyright">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span12">                     
+                <p>2016&nbsp;  &copy; <a href="http://www.kenapps.com" class="tabletext">KenApps</a> Powered by AMS. </p>
+            </div>
+        </div><!--/row-fluid-->
+    </div><!--/container--> 
+</div>
+
+        <script type="text/javascript" src="/universe/js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="/universe/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/universe/js/back-to-top.js"></script>
+        <script type="text/javascript" src="/universe/js/app.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        App.init();
+    });
+</script>  
+<!-- End Template component://universe/includes/sis-footer.ftl -->
+</div><!-- Begin Template component://common/webcommon/includes/closehtmlbody.ftl -->
+</body>
+</html>
+<!-- End Template component://common/webcommon/includes/closehtmlbody.ftl -->
+<!-- End Section Widget  -->
+<!-- End Screen component://sis/widget/CommonScreens.xml#main-decorator -->
+<!-- End Screen component://sis/widget/CommonScreens.xml#login -->

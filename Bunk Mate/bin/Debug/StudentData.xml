@@ -1,0 +1,174 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <Course_x0020_Code>OPE 1</Course_x0020_Code>
+    <Name>PROGRAMMING IN C#(CSE 3289)</Name>
+    <Classes>36</Classes>
+    <Attended>33</Attended>
+    <Absent>3</Absent>
+    <_x0025_>92</_x0025_>
+    <Updated>4/22/16</Updated>
+  </Table1>
+  <Table1>
+    <Course_x0020_Code>MAT 2208</Course_x0020_Code>
+    <Name>ENGINEERING MATHEMATICS – IV</Name>
+    <Classes>34</Classes>
+    <Attended>32</Attended>
+    <Absent>2</Absent>
+    <_x0025_>95</_x0025_>
+    <Updated>4/19/16</Updated>
+  </Table1>
+  <Table1>
+    <Course_x0020_Code>ELE 2201</Course_x0020_Code>
+    <Name>SIGNALS AND SYSTEMS</Name>
+    <Classes>36</Classes>
+    <Attended>31</Attended>
+    <Absent>5</Absent>
+    <_x0025_>87</_x0025_>
+    <Updated>4/23/16</Updated>
+  </Table1>
+  <Table1>
+    <Course_x0020_Code>ELE 2202</Course_x0020_Code>
+    <Name>ELECTRICAL MACHINERY – II</Name>
+    <Classes>41</Classes>
+    <Attended>36</Attended>
+    <Absent>5</Absent>
+    <_x0025_>88</_x0025_>
+    <Updated>4/22/16</Updated>
+  </Table1>
+  <Table1>
+    <Course_x0020_Code>ELE 2203</Course_x0020_Code>
+    <Name>DIGITAL SYSTEM DESIGN &amp; COMPUTER ARCHITECTURE</Name>
+    <Classes>42</Classes>
+    <Attended>41</Attended>
+    <Absent>1</Absent>
+    <_x0025_>98</_x0025_>
+    <Updated>4/19/16</Updated>
+  </Table1>
+  <Table1>
+    <Course_x0020_Code>ELE 2204</Course_x0020_Code>
+    <Name>ANALOG SYSTEM DESIGN</Name>
+    <Classes>34</Classes>
+    <Attended>31</Attended>
+    <Absent>3</Absent>
+    <_x0025_>92</_x0025_>
+    <Updated>4/23/16</Updated>
+  </Table1>
+  <Table1>
+    <Course_x0020_Code>ELE 2211</Course_x0020_Code>
+    <Name>ELECTRICAL MACHINERY LAB – I</Name>
+    <Classes />
+    <Attended />
+    <Absent />
+    <_x0025_ />
+    <Updated />
+  </Table1>
+  <Table1>
+    <Course_x0020_Code>ELE 2212</Course_x0020_Code>
+    <Name>INTEGRATED ELECTRONICS LAB –II</Name>
+    <Classes />
+    <Attended />
+    <Absent />
+    <_x0025_ />
+    <Updated />
+  </Table1>
+  <Table2>
+    <Course_x0020_Code>OPE 1</Course_x0020_Code>
+    <Course>OPEN ELECTIVE-I</Course>
+    <Marks>13.5</Marks>
+  </Table2>
+  <Table2>
+    <Course_x0020_Code>MAT 2208</Course_x0020_Code>
+    <Course>ENGINEERING MATHEMATICS – IV</Course>
+    <Marks>11.5</Marks>
+  </Table2>
+  <Table2>
+    <Course_x0020_Code>ELE 2201</Course_x0020_Code>
+    <Course>SIGNALS AND SYSTEMS</Course>
+    <Marks>4</Marks>
+  </Table2>
+  <Table2>
+    <Course_x0020_Code>ELE 2202</Course_x0020_Code>
+    <Course>ELECTRICAL MACHINERY – II</Course>
+    <Marks>5</Marks>
+  </Table2>
+  <Table2>
+    <Course_x0020_Code>ELE 2203</Course_x0020_Code>
+    <Course>DIGITAL SYSTEM DESIGN &amp; COMPUTER ARCHITECTURE</Course>
+    <Marks>13</Marks>
+  </Table2>
+  <Table2>
+    <Course_x0020_Code>ELE 2204</Course_x0020_Code>
+    <Course>ANALOG SYSTEM DESIGN</Course>
+    <Marks>6</Marks>
+  </Table2>
+  <Table3>
+    <Course_x0020_Code>OPE 1</Course_x0020_Code>
+    <Course>OPEN ELECTIVE-I</Course>
+    <Marks>8.5</Marks>
+  </Table3>
+  <Table3>
+    <Course_x0020_Code>MAT 2208</Course_x0020_Code>
+    <Course>ENGINEERING MATHEMATICS – IV</Course>
+    <Marks>10</Marks>
+  </Table3>
+  <Table3>
+    <Course_x0020_Code>ELE 2201</Course_x0020_Code>
+    <Course>SIGNALS AND SYSTEMS</Course>
+    <Marks>8</Marks>
+  </Table3>
+  <Table3>
+    <Course_x0020_Code>ELE 2202</Course_x0020_Code>
+    <Course>ELECTRICAL MACHINERY – II</Course>
+    <Marks>4</Marks>
+  </Table3>
+  <Table3>
+    <Course_x0020_Code>ELE 2203</Course_x0020_Code>
+    <Course>DIGITAL SYSTEM DESIGN &amp; COMPUTER ARCHITECTURE</Course>
+    <Marks>10.5</Marks>
+  </Table3>
+  <Table3>
+    <Course_x0020_Code>ELE 2204</Course_x0020_Code>
+    <Course>ANALOG SYSTEM DESIGN</Course>
+    <Marks>12</Marks>
+  </Table3>
+  <Table4>
+    <Latest_x0020_Enrollment>&lt;span class="sprite"&gt;JAN-MAY 2016&lt;/span&gt;</Latest_x0020_Enrollment>
+  </Table4>
+  <Table5>
+    <Course_x0020_Code>OPE 1</Course_x0020_Code>
+    <Course_x0020_Name>PROGRAMMING IN C#(CSE 3289)</Course_x0020_Name>
+    <Attendence>92</Attendence>
+    <Internals>22</Internals>
+  </Table5>
+  <Table5>
+    <Course_x0020_Code>MAT 2208</Course_x0020_Code>
+    <Course_x0020_Name>ENGINEERING MATHEMATICS – IV</Course_x0020_Name>
+    <Attendence>95</Attendence>
+    <Internals>21.5</Internals>
+  </Table5>
+  <Table5>
+    <Course_x0020_Code>ELE 2201</Course_x0020_Code>
+    <Course_x0020_Name>SIGNALS AND SYSTEMS</Course_x0020_Name>
+    <Attendence>87</Attendence>
+    <Internals>12</Internals>
+  </Table5>
+  <Table5>
+    <Course_x0020_Code>ELE 2202</Course_x0020_Code>
+    <Course_x0020_Name>ELECTRICAL MACHINERY – II</Course_x0020_Name>
+    <Attendence>88</Attendence>
+    <Internals>9</Internals>
+  </Table5>
+  <Table5>
+    <Course_x0020_Code>ELE 2203</Course_x0020_Code>
+    <Course_x0020_Name>DIGITAL SYSTEM DESIGN &amp; COMPUTER ARCHITECTURE</Course_x0020_Name>
+    <Attendence>98</Attendence>
+    <Internals>23.5</Internals>
+  </Table5>
+  <Table5>
+    <Course_x0020_Code>ELE 2204</Course_x0020_Code>
+    <Course_x0020_Name>ANALOG SYSTEM DESIGN</Course_x0020_Name>
+    <Attendence>92</Attendence>
+    <Internals>18</Internals>
+  </Table5>
+</NewDataSet>
